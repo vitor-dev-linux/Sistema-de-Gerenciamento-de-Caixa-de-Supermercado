@@ -25,6 +25,11 @@ O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilita
 - **Banco de Dados:** MySQL versão 8.0.38
 - **Outras Tecnologias:**
   - Apache2
+ 
+## Colaboradores
+- Leonardo Gonçalves Flora
+- Maicon Querino Jesus de Souza
+- Vitor Moreira dos Santos
 
 
 ## Licença
