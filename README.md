@@ -26,8 +26,6 @@ O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilita
 - **Outras Tecnologias:**
   - Apache2
 
-## Links Úteis
-- [Documentação do Projeto](https://github.com/seu-usuario/sistema-caixa-supermercado/docs)
 
 ## Licença
 Este projeto está licenciado sob a [Nome da Licença](https://github.com/seu-usuario/sistema-caixa-supermercado/LICENSE).
