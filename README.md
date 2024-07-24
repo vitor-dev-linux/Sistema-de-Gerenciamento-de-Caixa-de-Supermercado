@@ -24,7 +24,7 @@ O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilita
 - **Linguagem de Programação:** Django versão 5.0.7
 - **Banco de Dados:** MySQL versão 8.0.38
 - **Outras Tecnologias:**
-  - Apache2
+  - Nginx 
  
 ## Colaboradores
 - Leonardo Gonçalves Flora
