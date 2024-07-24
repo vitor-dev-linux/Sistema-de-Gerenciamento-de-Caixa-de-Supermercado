@@ -21,7 +21,7 @@ O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilita
 
 
 ## Tecnologias Utilizadas
-& Linguagem de Programação: Django versão 3.1.1
+* Linguagem de Programação: Django versão 3.1.1
 * Banco de Dados: MySQL versão 5.7.44
 * Outras Tecnologias:
   * Nginx versão 1.21.6
