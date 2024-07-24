@@ -1,13 +1,14 @@
 #### NOTAS DE USO
 
 * Para instalar:
+Entre na pasta MLV_SuperMercado do projeto e execute:
 ```
 docker-compose up
 ```
 </p>
 
 * PhpMyAdmin
-<b>usuario: </b> mvl
+<b>usuario: </b> mlv
 <b>usuario: </b> administrativo
 </p>
 
