@@ -1,0 +1,47 @@
+version: "3.8"
+services:
+  web:
+    build: ./app
+    #image: 891377281871.dkr.ecr.us-east-2.amazonaws.com/django_docker_aws:django_docker_aws_web
+    image: 891377281871.dkr.ecr.us-east-2.amazonaws.com/django_docker_aws:mlv_image_dev  
+    command: gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - ./app/:/usr/src/app/
+      - static_volume:/usr/src/app/static
+    expose:
+      - 8000
+
+  nginx:
+    build: ./nginx
+    image: 891377281871.dkr.ecr.us-east-2.amazonaws.com/django_docker_aws:django_docker_aws_nginx
+    volumes:
+      - static_volume:/usr/src/app/static
+    ports:
+      - 80:80
+    depends_on:
+      - web
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=db
+      - MYSQL_ROOT_PASSWORD=root_mvldatabase
+    ports:
+      - 8080:80
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=mlv_supermaret_database
+      - MYSQL_USER=mlv
+      - MYSQL_PASSWORD=administrativo
+      - MYSQL_ROOT_PASSWORD=root_mvldatabase
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  static_volume:
+  db_data:
+
