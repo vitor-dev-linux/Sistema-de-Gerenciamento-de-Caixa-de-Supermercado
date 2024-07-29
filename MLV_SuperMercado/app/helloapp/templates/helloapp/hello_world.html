@@ -6,6 +6,24 @@
     <title>MLV Soluções</title>
     <link rel="icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f371.svg" type="image/x-icon">
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <style>
+        /* Adicione algum estilo para o botão */
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .login-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f0f8ff; color: #333;">
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #71b7e6, #9b59b6);">
@@ -16,8 +34,9 @@
             <div style="display: flex; justify-content: center; align-items: center;">
                 <dotlottie-player src="https://lottie.host/7d2eb2ab-f843-4780-b007-477001958494/xHcQE0Ewer.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
             </div>
+            <!-- Botão de Login -->
+            <a href="{% url 'login' %}" class="login-button">Entrar</a>
         </div>
     </div>
 </body>
 </html>
-
