@@ -4,16 +4,29 @@
 O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilitar o processo de passagem de produtos no caixa e a realização de vendas. O sistema permite o cadastro e gerenciamento de produtos, clientes, funcionários, endereços de entrega e vendas, proporcionando uma solução completa para supermercados.
 
 ## Requisitos Funcionais Obrigatórios
-- Cadastrar Produtos
-- Deletar Produtos
-- Cadastrar Clientes
-- Deletar Clientes
+- Cadastrar Produto
+- Deletar Produto
+- Alterar Produto
+- Excluir Produto
+
+  
+- Cadastrar Cliente
+- Deletar Cliente
+- Alterar Cliente
+- Excluir Cliente
+  
 - Cadastrar Funcionário
 - Deletar Funcionário
 - Atualizar Funcionário
 - Listar Funcionários
+
+  
 - Cadastrar Endereço
 - Deletar Endereço
+- Alterar Endereço
+- Excluir Endereço
+
+## Tabela de VENDAS (Envolve 3 ou mais tabelas)
 - Cadastrar Venda
 - Deletar Venda
 - Atualizar Venda
