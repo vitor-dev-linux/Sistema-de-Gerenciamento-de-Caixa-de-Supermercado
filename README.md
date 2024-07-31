@@ -5,32 +5,33 @@ O Sistema de Caixa de Supermercado é uma aplicação desenvolvida para facilita
 
 ## Requisitos Funcionais Obrigatórios
 - Cadastrar Produto
-- Deletar Produto
+- Listar Produto
 - Alterar Produto
-- Excluir Produto
-
+- Deletar Produto
+_______________________
   
 - Cadastrar Cliente
-- Deletar Cliente
+- Listar Cliente
 - Alterar Cliente
-- Excluir Cliente
+- Deletar Cliente
+_______________________
   
 - Cadastrar Funcionário
-- Deletar Funcionário
-- Atualizar Funcionário
-- Listar Funcionários
-
+- Listar Funcionário
+- Alterar Funcionário
+- Deletar Funcionários
+_______________________
   
 - Cadastrar Endereço
-- Deletar Endereço
+- Listar Endereço
 - Alterar Endereço
-- Excluir Endereço
+- Deletar Endereço
 
 ## Tabela de VENDAS (Envolve 3 ou mais tabelas)
 - Cadastrar Venda
-- Deletar Venda
-- Atualizar Venda
 - Listar Venda
+- Alterar Venda
+- Deletar Venda
 
 
 ## Tecnologias Utilizadas
