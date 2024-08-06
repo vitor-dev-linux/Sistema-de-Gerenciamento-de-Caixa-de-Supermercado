@@ -27,12 +27,18 @@ _______________________
 - Alterar Endereço
 - Deletar Endereço
 
-## Tabela de VENDAS (Envolve 3 ou mais tabelas)
+_______________________
+Tabela de VENDAS (Envolve 3 ou mais tabelas)
 - Cadastrar Venda
 - Listar Venda
 - Alterar Venda
 - Deletar Venda
 
+## Requisitos Não-Funcionais
+- Gerar Relatório em menos de 1 segundo
+- Tempo de resposta na Autenticação
+- Proteção contra Acesso não Autorizado
+- Organização e Clareza na Leitura
 
 ## Tecnologias Utilizadas
 * Linguagem de Programação: Django versão 3.1.1
